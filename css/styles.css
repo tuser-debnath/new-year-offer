@@ -249,3 +249,165 @@ main{
     color: #070211;
     margin-bottom: 30px;
 }
+
+/* Holiday Part Start */
+.holiday{
+    margin-top: 100px;
+}
+.holiday-content{
+    max-width: 80%;
+    text-align: center;
+    margin: 0 auto;
+
+}
+.holiday-content h4{
+    font-family: "Inter", sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    color: #070211;
+}
+.holiday-content h3{
+    font-family: "Merriweather", serif;
+    font-size: 72px;
+    font-weight: 800;
+    color: #070211;
+}
+.holiday-content h3 span{
+    color: #FF0000;
+}
+.holiday-content p{
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #070211;
+    padding: 0 100px;
+    margin-bottom: 100px;
+}
+.holiday-image{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+.holiday-image::before{
+    position: absolute;
+    content: url(../images/Rectangle\ 2.png);
+    height: 150px;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+/* Portfolio Part Start */
+.portfolio{
+    margin-top: 150px;
+}
+.portfolio-content{
+    max-width: 60%;
+}
+.portfolio-content h4{
+    font-family: "Inter", sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    color: #FF0000;
+}
+.portfolio-content h3{
+    font-family: "Merriweather", serif;
+    font-size: 48px;
+    font-weight: 800;
+    color: #070211;
+}
+.portfolio-content p{
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #070211;
+    margin-bottom: 50px;
+}
+.portfolio-image{
+    display: flex;
+    justify-content: space-between;
+    gap: 30;
+    margin-bottom: 30px;
+}
+
+/* Newsletter Part Start */
+.newsletter{
+    margin-top: 80px;
+    text-align: center;
+    background: #ffc9c9;
+    background: linear-gradient(180deg,rgba(255, 201, 201, 1) 39%, rgba(237, 237, 237, 1) 100%);
+    border-radius: 20px;
+    padding: 100px;
+}
+.newsletter h3{
+    font-family: "Merriweather", serif;
+    font-size: 48px;
+    font-weight: 800;
+    color: #070211;
+}
+.newsletter p{
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #070211;
+    padding: 0 100px;
+    margin-bottom: 30px;
+}
+.newsletter input[type=text]{
+    padding: 20px 30px;
+    width: 400px;
+    border-radius: 40px;
+    border: none;
+    position: relative;
+}
+.newsletter input[type=text]:focus{
+    border: none;
+    outline: none;
+}
+.newsletter input[type=button]{
+    padding: 20px 40px;
+    border-radius: 0 40px 40px 0;
+    border: none;
+    background-color: #FF0000;
+    color: #fff;
+    position: absolute;
+    content: "";
+    right: 472px;
+}
+
+/* Footer Part Start */
+.footer{
+    margin-top: 50px;
+    background-color: #070211;
+    padding: 100px 0 50px 0;
+    color: #fff;
+}
+.footer-main{
+    max-width: 1340px;
+    margin: 0 auto;
+}
+.footer-top{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 50px;
+}
+
+.footer-middle{
+    margin: 50px 0;
+}
+
+.footer-middle ul{
+    display: flex;
+    justify-content: center;
+}
+
+.footer-middle ul li{
+    list-style: none;
+    margin-right: 20px;
+}
+.footer-bottom{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
